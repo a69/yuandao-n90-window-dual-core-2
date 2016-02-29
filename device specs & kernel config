@@ -1,0 +1,44 @@
+#summary One-sentence summary of this page.
+#labels Phase-Requirements,Featured,Phase-QA
+
+
+= N90 DUAL CORE 2 BZ =(specs)
+
+|| Integrated Power Management Subsystem ||  WM8326G ||
+|| Cable touch? ||  PB97DR8073-03 pingbo ||
+|| Display interface || RK610-G-BD32968 ||
+|| Touchscreen controller ||  GT828 GOODIX ||
+|| BOARD ||  TR976V10 2012.04.12 ||
+||LCD ||LP 097X02-SLQ2 LGDNJ ||
+||Battery||PL3670140P||
+||3-Axis Orientation/Motion Detection Sensor || MMA7660 ||
+||WIFI BT||BCM4329 ??||
+||? ||RK903||
+
+||--------LCD______||
+||LP 097X02-SLQ2 LGDNJ||
+||097A7CD601Q26 6M4A||
+||6091L-1402A 110620 RAR||
+||Q2116L Q9N ARRH1402A6||
+||3300L-0321A-94||
+_____________________
+
+||------Battery______||
+||PTI-01003900LD26251P0000000-R||
+||PL3670140P 4000mAh 7.4v LE07||
+______________________
+
+
+
+
+
+
+= kernel = ?
+
+||CONFIG_SOC_CAMERA_OV2659=y||
+||CONFIG_LCD_LG_LP097X02=y||
+||CONFIG_WM8326_VBAT_LOW_DETECTION=y ?||
+||CONFIG_TOUCHSCREEN_GT8XX=y ?||
+||CONFIG_TOUCHSCREEN_GT82X_IIC=y ?||
+||CONFIG_LCDC1_RK30=y||
+||CONFIG_BCM4329=y ?||
